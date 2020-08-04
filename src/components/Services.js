@@ -25,13 +25,12 @@ export default class Services extends Component {
                 title:"Boisson spéciale",
                 info:"Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem"
             }
-            
         ]
     }
     render() {
         return (
             <section className="services">
-               <Title title="services"/> 
+               <Title title="services"/>
                <div className="services-center">
                     {this.state.services.map((item, index) => {
                     return (
